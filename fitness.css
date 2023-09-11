@@ -1,0 +1,152 @@
+body{
+    background-color:#eeeaea;
+    font-weight: 500;
+    min-width: 375px;
+}
+.views{
+    font-size: small;
+    color: #c7c7c7;
+    text-align: center;
+    line-height: 1px;
+}
+.second-row{
+    text-align: center;
+    font-size: small;
+    border-radius: 5px;
+}
+.line{
+    line-height: 5px;
+    font-size: smaller;
+    text-align: center;
+}
+ .table1{
+    font-size: x-small;
+    line-height: 17px;
+    
+} 
+.recent-transaction{
+    height: 277px;
+}
+.graph{
+    height:230px;
+}
+.bottom-table{
+    font-size: x-small;
+    line-height: 20px; 
+}
+.card{
+    border: none;
+}
+.amount{
+    text-align: right; 
+}
+.dashboard{
+    line-height: 35px;
+    font-size: small;
+    color: #ed4e1d;
+    border-color: #edebeb;
+    border-style:groove;
+    border-width: 1px;
+}
+.box{
+    border-right: 1px solid #dad7d7;
+    margin-top:12px;
+    margin-bottom: 12px;
+    line-height: 2px;
+}
+.box1{
+    margin-top:12px;
+    margin-bottom: 12px;
+    line-height: 2px;
+}
+.table-flex{
+    color:  #535252; 
+    font-size: small;
+}
+.bottom-nav{
+    font-size: x-small;
+    height: 37px;
+    color: #c7c7c7;
+    border-color: #edebeb;
+    border-style:groove;
+    border-width: 1px;
+}
+.new-joining
+{
+height:225px;
+}
+.copyrights{
+    height: 12px;
+    width: 12px;
+}
+
+.table-color{
+    color: #c2b9b9 !important;
+}
+.table-header{
+    color: #9a9999 !important;
+}
+.fitness-logo{
+    height: 50px;
+    width: 200px;
+}
+.menu-row{
+    font-size: small;
+    color: #3e3d3d;
+    line-height: 5px;
+}
+.menu-row2{
+    font-size: small;
+    color: #ada9a9;
+    line-height: 5px;
+}
+.nav-item{
+    border-bottom: 1px solid #e0dddd;
+}
+.sidebar-header{
+    color: #ada9a9;
+    font-size: x-small;
+    border-bottom: 1px solid #e0dddd;
+    padding-left: 22px;
+    border-bottom-width: 1px;
+}
+.hii:hover{
+font-size: small;
+color: red;
+background-color:  #fde4dd;
+border-right: 4px solid #ea1313;
+}
+.hii{
+    font-size: small;
+    color: #a2a0a0;
+    padding: 4px;
+    padding-left: 35px;
+}
+.sidebar-logo{
+    background-color: white;
+    border: none;
+}
+.sidebar-logo:hover{
+    background-color: white;
+    border: none;
+}
+:root{
+    --offcanvas-width:270px;
+}
+.offcanvas{
+    max-width: var(--offcanvas-width);
+}
+@media (max-width:637px){
+    .box{
+      border:none;
+    }
+   .bottom-nav{
+    margin-top:3px;
+    font-size: xx-small;
+   }
+}
+@media (max-width:768px){
+    .third-row-table{
+      margin-top: 8px;
+    }
+}

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="fitness.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2 bg-white d-lg-block d-none">
+        <img class="fitness-logo" src="fitness.png">
+        <div class="row ms-2 mt-4">
+          <div class="col-2">
+            <img src="download.jpg" style="width:40px ;height:40px;">
+          </div>
+          <div class="col-8 ms-2 mt-1">
+            <p class="menu-row">Fitness club</p>
+            <p class="menu-row2">kavinkumar_s@gmail.com</p>
+          </div>
+        </div>
+        <div class="row mt-2 sidebar-header">
+          <p>MENU</p>
+        </div>
+        <div class="row ">
+          <ul class="nav  nav-pills flex-column p-0">
+            <li class="nav-item hii">
+              <iconify-icon icon="bxs:home" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;Home</span>
+            </li>
+            <li class="nav-item hii">
+              <iconify-icon icon="fluent-mdl2:page-solid" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;Posts</span>
+            </li>
+            <li class="nav-item hii">
+              <iconify-icon icon="material-symbols:folder" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;Categories</span>
+            </li>
+            <li class="nav-item hii">
+              <iconify-icon icon="raphael:firefox" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;Media</span>
+            </li>
+            <li class="nav-item hii">
+              <iconify-icon icon="iconoir:page" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;Pages</span>
+            </li>
+            <li class="nav-item hii">
+              <iconify-icon icon="mdi:comment" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;Comments</span>
+            </li>
+          </ul>
+        </div>
+        <div class="row mt-3 sidebar-header">
+          <p>SYSTEM</p>
+        </div>
+        <div class="row">
+          <ul class="nav  nav-pills flex-column p-0">
+            <li class="nav-item hii">
+              <iconify-icon icon="iconamoon:edit-bold" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;Appearance</span>
+            </li>
+            <li class="nav-item hii">
+              <iconify-icon icon="codicon:extensions" width="16" height="16"></iconify-icon>
+              <span class="nav-link-menu">&nbsp;&nbsp;&nbsp;Extension</span>
+            </li>
+            <li class="nav-item hii">
+              <iconify-icon icon="bxs:user" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;User</span>
+            </li>
+            <li class="nav-item hii">
+              <iconify-icon icon="ant-design:setting-filled" width="16" height="16"></iconify-icon>
+              <span>&nbsp;&nbsp;&nbsp;Settings</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- hambegur -->
+      <div class="col-lg-10 col-md-12 col-sm-12">
+        <div class="row dashboard">
+          <div class="d-flex flex-row justify-content-between align-items-center bg-white">
+            <a class="btn btn-primary sidebar-logo d-lg-none d-block " data-bs-toggle="offcanvas"
+              href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+              <button class="navbar-toggler mt-2" type="button" data-toggle="collapse"
+                data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><iconify-icon icon="ri:menu-fill" style="color: black;" width="16"
+                    height="16"></iconify-icon></iconify-icon></span>
+              </button>
+            </a>
+            <div class="offcanvas offcanvas-start sidebar-nav" tabindex="-1" id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel">
+              <div class="offcanvas-header">
+                <img class="fitness-logo" src="fitness.png">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div class="row ms-2 p-0">
+                  <div class="col-2">
+                    <img src="download.jpg" style="width:40px ;height:40px;">
+                  </div>
+                  <div class="col-8 ms-2 mt-1">
+                    <p class="menu-row">Fitness club</p>
+                    <p class="menu-row2">kavinkumar_s@gmail.com</p>
+                  </div>
+                </div>
+                <div class="row  sidebar-header">
+                  <p>MENU</p>
+                </div>
+                <div class="row ">
+                  <ul class="nav  nav-pills flex-column p-0">
+                    <li class="nav-item hii">
+                      <iconify-icon icon="bxs:home" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;Home</span>
+                    </li>
+                    <li class="nav-item hii">
+                      <iconify-icon icon="fluent-mdl2:page-solid" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;Posts</span>
+                    </li>
+                    <li class="nav-item hii">
+                      <iconify-icon icon="material-symbols:folder" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;Categories</span>
+                    </li>
+                    <li class="nav-item hii">
+                      <iconify-icon icon="raphael:firefox" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;Media</span>
+                    </li>
+                    <li class="nav-item hii">
+                      <iconify-icon icon="iconoir:page" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;Pages</span>
+                    </li>
+                    <li class="nav-item hii">
+                      <iconify-icon icon="mdi:comment" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;Comments</span>
+                    </li>
+                  </ul>
+                </div>
+                <div class="row sidebar-header">
+                  <p>SYSTEM</p>
+                </div>
+                <div class="row">
+                  <ul class="nav  nav-pills flex-column p-0">
+                    <li class="nav-item hii">
+                      <iconify-icon icon="iconamoon:edit-bold" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;Appearance</span>
+                    </li>
+                    <li class="nav-item hii">
+                      <iconify-icon icon="codicon:extensions" width="16" height="16"></iconify-icon>
+                      <span class="nav-link-menu">&nbsp;&nbsp;&nbsp;Extension</span>
+                    </li>
+                    <li class="nav-item hii">
+                      <iconify-icon icon="bxs:user" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;User</span>
+                    </li>
+                    <li class="nav-item hii">
+                      <iconify-icon icon="ant-design:setting-filled" width="16" height="16"></iconify-icon>
+                      <span>&nbsp;&nbsp;&nbsp;Settings</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="p-1">Discover dashboard</div>
+            <div class="p-1">
+              <a class="navbar-brand" href="#">
+                <img src="search.png" alt="Bootstrap" width="15" height="15">
+              </a>
+              <span>&nbsp;</span>
+              <a class="navbar-brand" href="#">
+                <img src="notification.png" alt="Bootstrap" width="15" height="15">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- second row -->
+        <div class="row bg-white ms-0 mt-2 me-0 second-row">
+          <div class="col-lg-2  col-6 p-lg-3 p-0  box">
+            <div class="row">
+              <p>view<span style="color: #ba56c9;">&nbsp;7852</span></p>
+            </div>
+            <div class="row">
+              <p class="views"><span style="color: #7ae14e;">+56%</span> vs last month</p>
+            </div>
+          </div>
+          <div class="col-lg-2  col-6 p-lg-3 p-0 box">
+            <div class="row">
+              <p>visitor<span style="color: #f36b42;">&nbsp;5812</span></p>
+            </div>
+            <div class="row">
+              <p class="views"><span style="color: #91df5d;">+56%</span> vs last month</p>
+            </div>
+          </div>
+          <div class="col-lg-2  col-6 p-lg-3 p-0 box">
+            <div class="row">
+              <p>Review<span style="color: #f7ae38;">&nbsp;180</span></p>
+            </div>
+            <div class="row">
+              <p class="views"><span style="color: #8ae14f;">-12%</span> vs last month</p>
+            </div>
+          </div>
+          <div class="col-lg-2  col-6 p-lg-3 p-0 box">
+            <div class="row">
+              <p>New joining<span style="color:#73d04b;">&nbsp;428</span></p>
+            </div>
+            <div class="row">
+              <p class="views"><span style="color: #88e24c;">+58%</span> vs last month</p>
+            </div>
+          </div>
+          <div class="col-lg-2  col-6 p-lg-3 p-0 box">
+            <div class="row">
+              <p>Renew admission<span style="color: #3ac5d7;">&nbsp;521</span></p>
+            </div>
+            <div class="row">
+              <p class="views"><span style="color: #86d94f;">+48%</span> vs last month</p>
+            </div>
+          </div>
+          <div class="col-lg-2  col-6 p-lg-3 p-0 box1">
+            <div class="row">
+              <p>Earning<span style="color: #3f70f6;">&nbsp;$24862</span></p>
+            </div>
+            <div class="row">
+              <p class="views"><span style="color: #87dc4e;">+42%</span> vs last month</p>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-lg-7 col-sm-12">
+            <div class="card p-2 recent-transaction">
+              <div class="d-flex flex-lg-row  justify-content-between lh-1">
+                <div class="p-2 table-flex">Monthly stats</div>
+                <div class="p-2"><a href="!" style="color:#cdcdcd;  font-size: small;">view detailed stats</a></div>
+              </div>
+              <img src="graph.png" class="graph">
+            </div>
+          </div>
+          <div class="col-lg-5 col-sm-12">
+            <div class="card p-2 recent-transaction third-row-table">
+              <div class="d-flex flex-lg-row justify-content-between lh-1">
+                <div class="p-2 table-flex">Recent transaction</div>
+                <div class="p-2"><a href="!" style="color:#c7c7c7;  font-size: small;">view details</a></div>
+              </div>
+              <div class="table-responsive">
+                <table class="table table1 ">
+                  <thead>
+                    <tr>
+                      <th class="table-header">Date</th>
+                      <th class="table-header">Payment</th>
+                      <th class="amount table-header" scope="col">Amount</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="table-color">July 28,15:22</td>
+                      <td class="table-color">Return fee invoice 002878</td>
+                      <td class="amount"><span style="color: #f38360;"> - $1242</span></td>
+                    </tr>
+                    <tr>
+                      <td class="table-color">July 28,15:22</td>
+                      <td class="table-color">Pay payment num:0052846</td>
+                      <td class="amount"><span style="color: #7ae14e;">+ $ 6584</span></td>
+                    </tr>
+                    <tr>
+                      <td class="table-color">July 28,15:22</td>
+                      <td class="table-color">Payment machine 021457855</td>
+                      <td class="amount"><span style="color: #f38360;">- $ 9854</span></td>
+                    </tr>
+                    <tr>
+                      <td class="table-color">July 28,15:22</td>
+                      <td class="table-color">Pay payment num:0052846</td>
+                      <td class="amount"><span style="color: #7ae14e;">+ $ 3254</span></td>
+                    </tr>
+                    <tr>
+                      <td class="table-color">July 28,15:22</td>
+                      <td class="table-color">Pay payment num:0052846</td>
+                      <td class="amount"><span style="color: #7ae14e;">+ $ 4523</span></td>
+                    </tr>
+                    <tr>
+                      <td class="table-color">July 28,15:22</td>
+                      <td class="table-color">Pay payment num:0052846</td>
+                      <td class="amount"><span style="color: #7ae14e;">+ $ 4523</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- bottom row table -->
+        <div class="row ms-0 mt-2 me-0">
+          <div class="card new-joining">
+            <div class="d-flex flex-row justify-content-between lh-1">
+              <div class="p-2 table-flex">New joining</div>
+              <div class="p-2"><a href="!" style="color:#c7c7c7;  font-size: small;">view details</a></div>
+            </div>
+            <div class="table-responsive">
+              <table class="table table-responsive bottom-table text-nowrap">
+                <thead>
+                  <tr>
+                    <th class="table-header">No</th>
+                    <th class="table-header">Name</th>
+                    <th class="table-header">Category</th>
+                    <th class="table-header">shift time</th>
+                    <th class="table-header">Enter time </th>
+                    <th class="table-header">Exit time </th>
+                    <th class="table-header">Amount</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="table-color">01</td>
+                    <td class="table-color"><img src="download.jpg" style="width: 5%;">&nbsp;&nbsp;&nbsp;&nbsp;Ronika
+                      pipolina</td>
+                    <td class="table-color">Fitness & bodybuilding</td>
+                    <td class="table-color">05: 30AM TO 07: 00AM</td>
+                    <td>05: 30AM</td>
+                    <td>06: 50AM</td>
+                    <td><span style="color: #f38360;">- $ 1242</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table-color">02</td>
+                    <td class="table-color"><img src="download.jpg" style="width: 5%;">&nbsp;&nbsp;&nbsp;&nbsp;jayadeep
+                      chhodavadiya</td>
+                    <td class="table-color">Fitness & bodybuilding</td>
+                    <td class="table-color">05: 30AM TO 07: 00AM</td>
+                    <td><span style="color: #f36b42;">Leave</span></td>
+                    <td><span style="color: #f36b42;">Leave</span></td>
+                    <td><span style="color: #7ae14e;">- $ 1242</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table-color">03</td>
+                    <td class="table-color"><img src="download.jpg" style="width: 5%;">&nbsp;&nbsp;&nbsp;&nbsp;Ronika
+                      pipolina</td>
+                    <td class="table-color">Fitness & bodybuilding</td>
+                    <td class="table-color">05: 30AM TO 07: 00AM</td>
+                    <td>05: 30AM</td>
+                    <td>06: 50AM</td>
+                    <td><span style="color: #7ae14e;">- $ 1242</span></td>
+                  </tr>
+                  <tr>
+                    <td class="table-color">04</td>
+                    <td class="table-color"><img src="download.jpg" style="width: 5%;">&nbsp;&nbsp;&nbsp;&nbsp;Ronika
+                      pipolina</td>
+                    <td class="table-color">Weight loss & Weight trainer</td>
+                    <td class="table-color">05: 30AM TO 07: 00AM</td>
+                    <td>05: 30AM</td>
+                    <td>06: 50AM</td>
+                    <td><span style="color: #7ae14e;">- $ 1242</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-2 ">
+          <div class="d-flex flex-row align-items-cente  bg-white bottom-nav ">
+            <div class="p-2">
+              <p><span><img class="copyrights" src="copyrights.png"></span>&nbsp;2021-2026 by admin panel proudly
+                created with artoon figma</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+</html>
